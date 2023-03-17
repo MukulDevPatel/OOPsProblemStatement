@@ -1,0 +1,38 @@
+{
+  "RiceList": [
+    {
+      "Name": "Rice1",
+      "Weight": "20",
+      "PricePerKg": "20"
+    },
+    {
+      "Name": "Rice2",
+      "Weight": "21",
+      "PricePerKg": "20"
+    }
+  ],
+  "WheatList": [
+    {
+      "Name": "Wheat1",
+      "Weight": "22",
+      "PricePerKg": "15"
+    },
+    {
+      "Name": "Wheat2",
+      "Weight": "24",
+      "PricePerKg": "19"
+    }
+  ],
+  "PulsesList": [
+    {
+      "Name": "Pulses1",
+      "Weight": "23",
+      "PricePerKg": "20"
+    },
+    {
+      "Name": "Pulses2",
+      "Weight": "26",
+      "PricePerKg": "20"
+    }
+  ]
+}
