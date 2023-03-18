@@ -11,7 +11,7 @@ namespace OOPsProblemStatement
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("Select option for execution\n1. Data Management\n2. Inventory Data List\n3. Exit");
+                Console.WriteLine("Select option for execution\n1. Data Management\n2. Inventory Data List\n3. Add Inventory\n4. Exit");
                 int select = Convert.ToInt32(Console.ReadLine());
                 switch (select)
                 {
@@ -24,6 +24,11 @@ namespace OOPsProblemStatement
                         inventor.ReadJsonFile(@"D:\BridgeLabz\OOPsProblemStatement\InventoryManagement\InventoryDetails.json");
                         break;
                     case 3:
+                        InventoryDataManagement addInventory = new InventoryDataManagement();
+                        addInventory.ReadJsonFile(@"D:\BridgeLabz\OOPsProblemStatement\InventoryManagement\InventoryDetails.json");
+                        addInventory.AddInventory();
+                        break;
+                    case 4:
                         flag = false;
                         break;
                 }
